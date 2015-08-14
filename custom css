@@ -1,0 +1,63 @@
+/* CSS Document */
+html, body {
+	background-color:#E7E7E2;
+	height:100%;
+}
+.box{
+	border:1px red dotted;
+	height:100%;
+}
+.container{
+	display:table;
+	}
+.imga{
+	display:table-cell;
+	vertical-align:middle;
+	
+}
+.pding{
+	padding:100px;
+	}
+a.m1{
+	position:relative;
+	font-size:20px;
+	//font-family: 'Convergence', sans-serif;
+	font-family: 'Philosopher', sans-serif;
+	text-decoration:none;
+	color:#7C7C7C;
+	-webkit-transition:all 1s ease;
+	transition:all 1s ease;
+	
+	
+}
+a.m1:hover{
+	position:relative;
+	bottom:1px;
+	font-size:20px;
+	//font-family: 'Convergence', sans-serif;
+	font-family: 'Philosopher', sans-serif;
+	text-decoration:none;
+	color:black;
+		}
+
+h4{
+	color:#7C7C7C;
+	//font-family: 'Convergence', sans-serif;
+	font-family: 'Philosopher', sans-serif;
+	background-color:transparent;
+	-webkit-transition:color 1s ease;
+	transition:color 1s ease;
+}
+h4:hover{
+	color:black;
+}
+img{
+	height:222px;
+	width:706px;
+	opacity:1;
+	-webkit-transition:opacity 1s;
+	transition:opacity 1s;
+}
+img:hover{
+	opacity:0.5;
+}
